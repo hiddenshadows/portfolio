@@ -1,8 +1,14 @@
 import Image from 'next/image'
 import Heading from './Heading'
+import About from './About'
+import Footer from './Footer'
 
 export default function Home() {
   return (
-    <Heading />
+    <div>
+      <Heading />
+      <About />
+      <Footer />
+    </div>
   )
 }
