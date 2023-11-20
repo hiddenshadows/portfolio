@@ -11,15 +11,15 @@ export default function About() {
           About Me
         </h1>
       </div>
-      <div className="gap-4 columns-2 content-center display-inline">
-        <div className="img">
+      <div className="gap-4 lg:columns-2 sm:columns-1 content-center display-inline">
+        <div className="flex justify-center pb-6">
           <img 
             src="https://expertphotography.b-cdn.net/wp-content/uploads/2022/03/Portrait-Photographers-Yousuf-Karsh-King.jpg"
             width="75%"
             />
         </div>
-        <div className="content-center">
-          <p className="">
+        <div className="content-center sm:pt-2">
+          <p className="sm:text-xl">
             Hello, my Name is Edgar Munoz and I am a recent graduate from the Univeristy of California
             Santa Cruz with a BS in Computer Science. I am a first generation college graduate looking
             to get into the tech industry. I have experience working in full stack web development and
