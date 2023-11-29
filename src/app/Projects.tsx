@@ -11,7 +11,8 @@ const projects = [
       create new workspaces and/or channels. Created using React, Next.js, Node.js, GraphQL, 
       PostgresSQL and MUI`,
     img: 'images/SlackLandingPage.png',
-    link: 'https://tiered-web-app-fe-sn7yhk7rkq-uw.a.run.app/'
+    link: 'https://tiered-web-app-fe-sn7yhk7rkq-uw.a.run.app/',
+    git: '#'
   },
   {
     name: 'InterNews',
@@ -20,7 +21,8 @@ const projects = [
       see the news from that country. You can also create an account and bookmark news
       articles. It was made with HTML, CSS, Javascript and Firebase for backend and database.`,
     img: 'images/InternewsHome.png',
-    link: 'https://internews-365121.web.app/index.html'
+    link: 'https://internews-365121.web.app/index.html',
+    git: '#'
   },
   {
     name: `Bizzare`,
@@ -28,8 +30,9 @@ const projects = [
       You can view items while being logged out and when you login you can upload your own
       things to sell. Built using the micro services architechture. Created using React, Next.js, 
       Node.js, GraphQL, PostgresSQL and MUI`,
-    img: 'url',
-    link: '#'
+    img: 'images/BIZarreHome.png',
+    link: '#',
+    git: '#'
   },
 
 ]
@@ -49,11 +52,11 @@ export default function Projects() {
             <h2 className="card-title">{proj.name}</h2>
             <p>{proj.description}</p>
             <div className="card-actions justify-end">
-              <div>
+              <a href={proj.git} target="_blank">
                 <button className="btn btn-circle">
                   <img src="github-mark.svg"></img>
                 </button>
-              </div>
+              </a>
               <a href={proj.link} target="_blank">
                 <button className="btn btn-black">Link
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#A1A8B4" d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg>
