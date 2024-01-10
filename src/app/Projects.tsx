@@ -7,31 +7,6 @@ export default function Projects() {
   const [inter, changeInter] = useState(0)
   const [biz, changeBiz] = useState(0)
 
-
-  // const handleSlack = () => {
-  //   if(slack === 0){
-  //     changeSlack(1)
-  //   } else {
-  //     changeSlack(0)
-  //   }
-  // }
-
-  // const handleInter = () => {
-  //   if(inter !== projects[1].img.length - 1){
-  //     changeInter(inter + 1)
-  //   } else {
-  //     changeInter(0)
-  //   }
-  // }
-
-  // const handleBiz = () => {
-  //   if(biz !== projects[2].img.length - 1){
-  //     changeBiz(biz + 1)
-  //   } else {
-  //     changeBiz(0)
-  //   }
-  // }
-
   const projects = [
     {
       name: 'Slack Clone',
