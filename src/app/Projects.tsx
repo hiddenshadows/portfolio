@@ -89,6 +89,7 @@ export default function Projects() {
 
   return (
     <div className="container mx-auto px-8">
+      <a id="projects"></a>
       <h1 className="text-4xl font-bold tracking-tight text-white-900 sm:text-4xl text-center p-2">
         Projects
       </h1>

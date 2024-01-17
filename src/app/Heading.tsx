@@ -5,10 +5,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About Me', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Home', href: '#home' },
+  { name: 'About Me', href: '#aboutme' },
+  { name: 'Projects', href: '#projects' },
+  // { name: 'Contact', href: '#' },
 ]
 
 export default function Heading() {
@@ -16,6 +16,7 @@ export default function Heading() {
 
   return (
     <div className="bg-black">
+      <a id="home"></a>
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1 items-center">

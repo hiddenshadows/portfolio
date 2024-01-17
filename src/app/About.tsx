@@ -6,6 +6,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="container mx-auto px-8">
+      <a id="aboutme"></a>
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-white-900 sm:text-4xl text-center p-5">
           About Me
