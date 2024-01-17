@@ -17,7 +17,7 @@ export default function Projects() {
         PostgresSQL and MUI`,
       img: ['images/SlackLandingPage.png', 'images/SlackLogin.png'],
       link: 'https://tiered-web-app-fe-sn7yhk7rkq-uw.a.run.app/',
-      git: '#',
+      git: 'https://gitfront.io/r/hiddenshadows/sWi6Dudj2FDt/SlackClone/',
       stateVar: slack,
       next() {
         if(slack === 0) {
@@ -42,7 +42,7 @@ export default function Projects() {
         articles. It was made with HTML, CSS, Javascript and Firebase for backend and database.`,
       img: ['images/InternewsHome.png', 'images/InternewsUS.png'],
       link: 'https://internews-365121.web.app/index.html',
-      git: '#',
+      git: 'https://internews-365121.web.app/index.html',
       stateVar: inter,
       next() {
         if(inter !== projects[1].img.length - 1){
@@ -67,7 +67,7 @@ export default function Projects() {
         Node.js, GraphQL, PostgresSQL and MUI`,
       img: ['images/BIZarreHome.png', 'images/BIZarreCreate.png', 'images/BIZarreI18EditPost.png', 'images/BIZarreInbox.png', 'images/BIZarreItem.png', 'images/BIZarreSearch.png'],
       link: '#',
-      git: '#',
+      git: 'https://gitfront.io/r/hiddenshadows/4hyU1mshK5TW/CSE187Project/',
       stateVar: biz,
       next() {
         if(biz !== projects[2].img.length - 1){
@@ -115,11 +115,11 @@ export default function Projects() {
                   <img src="github-mark.svg"></img>
                 </button>
               </a>
-              <a href={proj.link} target="_blank">
+              {/* <a href={proj.link} target="_blank">
                 <button className="btn btn-black">Link
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="#A1A8B4" d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg>
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
