@@ -14,7 +14,7 @@ export default function About() {
       <div className="gap-4 lg:columns-2 sm:columns-1 content-center display-inline">
         <div className="flex justify-center pb-6">
           <img 
-            src="https://expertphotography.b-cdn.net/wp-content/uploads/2022/03/Portrait-Photographers-Yousuf-Karsh-King.jpg"
+            src="images/IMG_20230615_191019_01.jpg"
             width="75%"
             />
         </div>
