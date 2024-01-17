@@ -94,7 +94,7 @@ export default function Projects() {
         Projects
       </h1>
       {projects.map( proj => 
-        <div className="card lg:card-side bg-base-200 shadow-xl my-8">
+        <div key={proj.name} className="card lg:card-side bg-base-200 shadow-xl my-8">
           <figure>
             {/* <img src={proj.img} alt="Screenshot"/> */}
             <div className="carousel w-full">
