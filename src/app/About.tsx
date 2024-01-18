@@ -33,6 +33,11 @@ export default function About() {
               <img src="linkedin.svg" width="50px"></img>
             </button>
           </a>
+          <a href="mailto:munozedgar510@gmail.com" target="_blank">
+            <button className="pr-8">
+              <img src="email.svg" width="50px"></img>
+            </button>
+          </a>
           <a href="https://www.github.com/hiddenshadows" target="_blank">
             <button className="btn btn-circle">
               <img src="github-mark.svg"></img>
