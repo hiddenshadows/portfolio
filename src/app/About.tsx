@@ -20,9 +20,9 @@ export default function About() {
         </div>
         <div className="content-center sm:pt-2">
           <p className="sm:text-xl">
-            Hello, my Name is Edgar Munoz and I am a recent graduate from the Univeristy of California
-            Santa Cruz with a BS in Computer Science. I am a first generation college graduate looking
-            to get into the tech industry. I have experience working in full stack web development and
+            Hello, my name is Edgar Munoz and I recently graduated from the University of California 
+            Santa Cruz with a BS in Computer Science. I am a first-generation college graduate looking 
+            to get into the tech industry. I have experience working in full-stack web development and 
             below are some projects I worked on.
           </p>
         </div>
